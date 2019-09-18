@@ -1,0 +1,7 @@
+base.py                     14 INFO     获取driver对象：<appium.webdriver.webdriver.WebDriver (session="56322583-b90a-4ed8-8043-d44105817f58")>
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/img_close') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/img_close')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/tab_me') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/tab_me')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/textView1') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/textView1')

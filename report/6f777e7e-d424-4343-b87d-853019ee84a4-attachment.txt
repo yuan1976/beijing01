@@ -1,0 +1,31 @@
+page_login.py               69 INFO     【登录业务】正在执行登录操作，用户名：18518164383 密码：123456
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/logon_account_textview') 超时时间：30 访问频率：0.5
+base.py                     43 INFO     正在对元素：('id', 'com.yunmall.lc:id/logon_account_textview') 执行清空操作
+base.py                     46 INFO     对元素：('id', 'com.yunmall.lc:id/logon_account_textview') 执行 输入：18518164383
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/logon_password_textview') 超时时间：30 访问频率：0.5
+base.py                     43 INFO     正在对元素：('id', 'com.yunmall.lc:id/logon_password_textview') 执行清空操作
+base.py                     46 INFO     对元素：('id', 'com.yunmall.lc:id/logon_password_textview') 执行 输入：123456
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/logon_button') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/logon_button')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/tv_user_nikename') 超时时间：30 访问频率：0.5
+base.py                     50 INFO     获取：('id', 'com.yunmall.lc:id/tv_user_nikename') 元素的文本：wzy123
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/tv_user_nikename') 超时时间：30 访问频率：0.5
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/tv_user_nikename') 超时时间：30 访问频率：0.5
+base.py                     50 INFO     获取：('id', 'com.yunmall.lc:id/tv_user_nikename') 元素的文本：wzy123
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/tv_user_nikename') 超时时间：30 访问频率：0.5
+test01_login01.py           53 ERROR    assert 'wzy123' == 'wzy'
+  - wzy123
+  + wzy
+page_login.py               61 INFO     正在执行退出登录业务方法
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/setting_notification') 超时时间：30 访问频率：0.5
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/setting_modify_pwd') 超时时间：30 访问频率：0.5
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/setting_logout') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/setting_logout')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/ymdialog_right_button') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/ymdialog_right_button')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/tab_me') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/tab_me')
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/textView1') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/textView1')

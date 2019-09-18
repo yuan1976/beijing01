@@ -1,0 +1,11 @@
+page_login.py               69 INFO     【登录业务】正在执行登录操作，用户名：185181643833 密码：123456
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/logon_account_textview') 超时时间：30 访问频率：0.5
+base.py                     43 INFO     正在对元素：('id', 'com.yunmall.lc:id/logon_account_textview') 执行清空操作
+base.py                     46 INFO     对元素：('id', 'com.yunmall.lc:id/logon_account_textview') 执行 输入：185181643833
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/logon_password_textview') 超时时间：30 访问频率：0.5
+base.py                     43 INFO     正在对元素：('id', 'com.yunmall.lc:id/logon_password_textview') 执行清空操作
+base.py                     46 INFO     对元素：('id', 'com.yunmall.lc:id/logon_password_textview') 执行 输入：123456
+base.py                     21 INFO     正在查找元素：('id', 'com.yunmall.lc:id/logon_button') 超时时间：30 访问频率：0.5
+base.py                     35 INFO     正在点击元素：('id', 'com.yunmall.lc:id/logon_button')
+base.py                     21 INFO     正在查找元素：('xpath', "//*[contains(@text,'此用户不存在')]") 超时时间：30 访问频率：0.5
+test01_login01.py           71 ERROR    Message:

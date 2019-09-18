@@ -1,0 +1,10 @@
+bnal_login_001:
+  username: "18518164383"
+  pwd: "123456"
+  expect: "wzy"
+  success: True
+bnal_login_002:
+  username: "185181643833"
+  pwd: "123456"
+  expect: "此用户不存在"
+  success: False

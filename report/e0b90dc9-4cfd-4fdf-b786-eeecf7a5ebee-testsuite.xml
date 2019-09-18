@@ -1,0 +1,396 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568780547943" stop="1568780806418">
+  <name>test01_login01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568780547943" status="failed" stop="1568780736051">
+      <name>TestLogin.test_login[18518164383-123456-wzy-True]</name>
+      <failure>
+        <message>AssertionError: assert 'wzy123' == 'wzy'
+  - wzy123
+  + wzy</message>
+        <stack-trace>self = &lt;test01_login01.TestLogin object at 0x00000000045FD0B8&gt;, username = '18518164383', pwd = '123456', expect = 'wzy', success = True
+
+    @pytest.mark.parametrize("username, pwd, expect, success", get_data())
+    def test_login(self, username, pwd, expect, success):
+        # 调用登录业务方法
+        self.login.page_login(username, pwd)
+        if success:
+            try:
+                # 断言 昵称
+                nickname = self.login.page_get_nickname()
+                print("获取的昵称为：", nickname)
+&gt;               assert self.login.page_get_nickname() == expect
+E               AssertionError: assert 'wzy123' == 'wzy'
+E                 - wzy123
+E                 + wzy
+
+scripts\test01_login01.py:49: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="b42f6708-a3b6-4dbc-9123-c774e8643349-attachment.png" title="失败原因：" type="image/png"/>
+        <attachment source="95832812-0431-42bb-a230-0d79148e391c-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="6f777e7e-d424-4343-b87d-853019ee84a4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1652-MainThread"/>
+        <label name="host" value="USER-2019GGKJNC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568780623649" status="passed" stop="1568780623650">
+          <name>初始化driver操作</name>
+          <title>初始化driver操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568780623650" status="passed" stop="1568780632485">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="3dcba767-aaa2-439f-8cd6-3b0b7a9fa535-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780623650" status="passed" stop="1568780631864">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="162838dd-370e-4b36-a76f-ce902c5b20a8-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780632485" status="passed" stop="1568780642985">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="2c6ba206-b41b-40f3-8fde-a61d0831c2d9-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780632485" status="passed" stop="1568780642897">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="629ab7b6-f557-4ce2-ac33-348336daa08f-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780642985" status="passed" stop="1568780650562">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="4bd0490a-ba0f-41d6-983a-7322614b0d90-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780642985" status="passed" stop="1568780650324">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="d45da2e8-766c-492f-90b7-f818b677fb30-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780650565" status="passed" stop="1568780650976">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="cdbec50d-24bb-407f-89bb-aee9a49d7e10-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780657524" status="passed" stop="1568780658100">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7909def6-f172-4eb3-9b02-43565d993ca9-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780672409" status="passed" stop="1568780673100">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="74318f40-697d-4054-ada4-608ca688150f-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780672409" status="passed" stop="1568780672921">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="7cae6653-2c4b-4aea-9703-90e47c7d3174-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780673100" status="passed" stop="1568780679605">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="442d6adc-90d7-466a-bf5f-435fd724c9fb-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780682666" status="passed" stop="1568780682842">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="9381a939-4958-4e77-a1ae-192eb047cbae-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780682933" status="passed" stop="1568780683061">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="ecbdc30c-27af-45b7-96aa-8cab6306beff-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780683180" status="passed" stop="1568780683275">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="ff5e6808-b006-4c6a-a777-26536eb6309d-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780708319" status="passed" stop="1568780708842">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="84b1a8e2-86db-4296-b29e-1fe2ab06ff2d-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780708319" status="passed" stop="1568780708425">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="275932c0-f8f7-47ef-8519-e9a309fa6af6-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780708842" status="passed" stop="1568780711369">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="bf552dc4-1e8f-47f5-84a0-1f50efb96297-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780711369" status="passed" stop="1568780711464">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="0c3e6366-ef1d-4e44-ab0f-4d262b55c960-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780725339" status="passed" stop="1568780726057">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="caeff7a6-be2a-44f8-9322-ffabb06ac713-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780725339" status="passed" stop="1568780725982">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="06e48627-f7f4-4bff-91aa-8b0a0873c3db-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780726057" status="passed" stop="1568780727397">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="bcb1167c-6e63-4399-9046-058d2b17f6c0-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780726057" status="passed" stop="1568780727254">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="83acfbab-1f4a-4172-8ed5-7e19d2ed8134-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780727397" status="passed" stop="1568780730410">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="1d928d42-8c8f-4b7e-adad-c547ea243067-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780727397" status="passed" stop="1568780730205">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="c85a5b90-68d3-4018-b890-50c2e4a68076-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780730410" status="passed" stop="1568780735660">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7d5bdf11-4efe-4f00-a9be-8e3a6cc750b4-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780730410" status="passed" stop="1568780735562">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="2a230a7b-4022-4e3b-b557-44146114a6bb-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568780736242" status="failed" stop="1568780806418">
+      <name>TestLogin.test_login[185181643833-123456-\u6b64\u7528\u6237\u4e0d\u5b58\u5728-False]</name>
+      <failure>
+        <message>TimeoutException: Message: 
+</message>
+        <stack-trace>self = &lt;test01_login01.TestLogin object at 0x0000000004833080&gt;, username = '185181643833', pwd = '123456', expect = '此用户不存在', success = False
+
+    @pytest.mark.parametrize("username, pwd, expect, success", get_data())
+    def test_login(self, username, pwd, expect, success):
+        # 调用登录业务方法
+        self.login.page_login(username, pwd)
+        if success:
+            try:
+                # 断言 昵称
+                nickname = self.login.page_get_nickname()
+                print("获取的昵称为：", nickname)
+                assert self.login.page_get_nickname() == expect
+            except Exception as e:
+                # 截图 、日志
+                self.login.base_get_img()
+                log.error(e)
+                # 抛异常
+                raise
+            finally:
+                # 退出登录业务方法
+                self.login.page_logout()
+                # 点击 我
+                self.login.page_click_me()
+                # 点击 已有账号，去登录   用户名不能为空！
+                self.login.page_click_username_link()
+        else:
+            try:
+                # 断言 toast消息
+&gt;               err_msg = self.login.page_get_toast(expect)
+
+scripts\test01_login01.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+page\page_login.py:41: in page_get_toast
+    return self.base_get_toast(msg)
+base\base.py:56: in base_get_toast
+    log.info("获取包含 {}文本的 toast消息内容:{} ".format(msg, self.base_find(loc).text))
+c:\users\administrator\appdata\local\programs\python\python36\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+base\base.py:22: in base_find
+    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x:x.find_element(*loc))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="56322583-b90a-4ed8-8043-d44105817f58")&gt;
+method = &lt;function Base.base_find.&lt;locals&gt;.&lt;lambda&gt; at 0x0000000004868D90&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value is not False."""
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+c:\users\administrator\appdata\local\programs\python\python36\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="afeeb647-8838-4a68-882d-3a284fe1ea1c-attachment.png" title="失败原因：" type="image/png"/>
+        <attachment source="57dfcee9-e2f2-4376-bd4e-233eb47aca4c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1652-MainThread"/>
+        <label name="host" value="USER-2019GGKJNC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568780736248" status="passed" stop="1568780736380">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="e171226b-660d-4e1c-aaba-6e9ba35aca23-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780744369" status="passed" stop="1568780744909">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="bccae55d-2374-466c-b1d8-d2267be9ca11-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568780756445" status="passed" stop="1568780757322">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="7b94acac-2796-4c4e-abb9-ce2841bbf909-attachment.txt" title="点击元素：" type="text/plain"/>
+          </attachments>
+          <steps>
+            <step start="1568780756445" status="passed" stop="1568780756887">
+              <name>查找元素操作</name>
+              <title>查找元素操作</title>
+              <attachments>
+                <attachment source="b1167155-606b-4ac1-84a4-5642ffdc7c5a-attachment.txt" title="查找的元素：" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568780757323" status="failed" stop="1568780787797">
+          <name>查找元素操作</name>
+          <title>查找元素操作</title>
+          <attachments>
+            <attachment source="e92b9972-ceb6-403e-b5e1-e86a5aa1e1cb-attachment.txt" title="查找的元素：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

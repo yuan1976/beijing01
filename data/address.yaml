@@ -1,0 +1,16 @@
+add_address:
+  name: "张三"
+  phone: "13800001111"
+  address: "京城81号"
+  code: "100010"
+  province: "河北"
+  city: "唐山"
+  area: "路北"
+update_address:
+  name: "李四"
+  phone: "13911112222"
+  address: "京城108号"
+  code: "100011"
+  province: "广东"
+  city: "广州"
+  area: "天河"
